@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #000;
+  }
+  
+  h1, h2 {
+    color: #1c90dd;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #4b4b4b;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    color: #fff;
+  }
+  
+  th {
+    background-color: #505050;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  label, input {
+    margin-bottom: 10px;
+    color: #fff;
+    background-color: #000;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 5;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #1c90dd;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1c90dd;
+  }
+
+  form[action="/remove-product"] button {
+    background-color: red;
+    width: 80px;
+  }
+  
